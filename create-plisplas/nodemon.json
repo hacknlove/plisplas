@@ -1,5 +1,4 @@
 {
-    "verbose": true,
     "ignore": [
       "package.json",
       "plisplas/*",
