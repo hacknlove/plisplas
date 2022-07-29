@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "ignore": [
+      "package.json",
+      "plisplas/*",
+      "dist/*"
+    ],
+    "ext": "js,json,mjs,ts,tsx,graphql"
+}
