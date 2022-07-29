@@ -1,10 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "plisplasmonorepo",
-  "devDependencies": {
-  },
-  "dependencies": {
-  },
+  "devDependencies": {},
+  "dependencies": {},
   "workspaces": [
     "plisplas",
     "create-plisplas",

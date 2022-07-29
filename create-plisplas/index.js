@@ -33,8 +33,8 @@ fs.writeFileSync(`package.json`, `
     "start": "node dist/plisplas/start.js",
     "lint": "eslint --fix "
   },
-  "dependencies": {
-    "plisplas": "^1.0.0"
+  "devDependencies": {
+    "plisplas": "^1.0.1"
   }
 }
 `)
