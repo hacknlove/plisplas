@@ -27,7 +27,7 @@ const defaultConfig = {
 }
 
 const customConfig = import(`../plisplas.config.js`).catch(err => ({}));
-const schemaPromise = readFile(`${__dirname}/schema.graphql`, 'utf8').catch(() => console.log('no schema') || '');
+const schemaPromise = readFile(`${__dirname}/schema.graphql`, 'utf8').catch(() => '');
 
 export default async function getConfig() {
   defaultConfig.apollo.typeDefs = await schemaPromise;
