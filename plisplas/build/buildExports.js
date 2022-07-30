@@ -33,9 +33,9 @@ module.exports = async function buildResolvers () {
         const name =  getName(route, filename)
 
         if (filename === 'index') {
-            exports[`./${route}`] = `./dist/domains/${route}/index.js`
+            exports[`./${route}`] = `./dist/domains/${route}/index.export.js`
         } else {
-            exports[`./${route}/${filename}`] = `./dist/domains/${route}/${filename}.js`
+            exports[`./${route}/${filename}`] = `./dist/domains/${route}/${filename}.export.js`
         }
 
         

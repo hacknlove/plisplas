@@ -1,6 +1,6 @@
 {
   "name": "plisplas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Light and simple DDD framework for making modules, GraphQL, REST that does not get in your way, and just help you wire up your exports, resolvers and controllers.",
   "main": "build.js",
   "bin": {
