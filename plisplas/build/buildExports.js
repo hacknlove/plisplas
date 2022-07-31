@@ -29,7 +29,7 @@ module.exports = async function buildResolvers () {
         }
         
         const { route = '', filename } = parse.groups
-        const importName = `${route.replace(/\//g, '#')}_${filename}`
+        const importName = `${route.replace(/\//g, '·')}_${filename}`
         const name =  getName(route, filename)
 
         if (filename === 'index') {

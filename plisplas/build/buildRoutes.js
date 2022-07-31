@@ -41,7 +41,7 @@ module.exports = async function buildResolvers () {
     }
 
     const { route = '', filename, type } = parse.groups
-    const importName = `${route.replace(/\//g, '#')}_${filename}_${type}`
+    const importName = `${route.replace(/\//g, '·')}_${filename}_${type}`
 
     routes.push({
       route: getRoute(route, filename).replace(bracketRouteRegexp, toExpressRoute),
