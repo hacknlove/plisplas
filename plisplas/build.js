@@ -10,6 +10,6 @@ require('./build/index')().then(() => {
     const tsconfig = require(join(process.cwd(), './tsconfig.json'));
     
     try {
-        fs.copyFileSync(join(process.cwd(), 'plisplas/schema.graphql'), join(process.cwd(), tsconfig.compilerOptions?.outDir ?? 'dist', 'plisplas', 'schema.graphql'));S
+        fs.copyFileSync(join(process.cwd(), 'plisplas/schema.graphql'), join(process.cwd(), tsconfig.compilerOptions?.outDir ?? 'dist', 'plisplas', 'schema.graphql'));
     } catch (e) {}
 });
